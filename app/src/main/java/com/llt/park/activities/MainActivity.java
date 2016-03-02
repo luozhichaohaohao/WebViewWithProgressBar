@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView _text = new TextView(this);
-        _text.setText("Text");
+        _text.setText("Text"+"branch_dev_lzc");
         setContentView(_text);
     }
 }
